@@ -106,11 +106,10 @@ public class ComputerTest {
 
     @Test
     public void canAddSoundDevices() {
-        SoundDevice speaker1 = new SoundDevice(100);
-        assert(speaker1 instanceof SoundDevice);
+        Speaker speaker1 = new Speaker(100);
         computer.addSoundDevice(speaker1);
-//        ArrayList<SoundDevice> deviceList = computer.listSoundDevices();
-//        assertEquals(1, deviceList.size());
-//        assert(deviceList.get(0) instanceof Speaker);
+        ArrayList<SoundDevice> deviceList = computer.listSoundDevices();
+        assertEquals(1, deviceList.size());
+        assert(deviceList.get(0) instanceof Speaker);
     }
 }
