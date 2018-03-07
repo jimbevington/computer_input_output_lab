@@ -24,6 +24,6 @@ public class KeyboardTest {
 
     @Test
     public void canSendData() {
-        assertEquals("jim", keyboard.sendDatqa("jim"));
+        assertEquals("jim", keyboard.sendData("jim"));
     }
 }
