@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f93ab23-0d1b-4a27-a444-ca31c16679c0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Mouse.java" afterPath="$PROJECT_DIR$/src/main/java/Mouse.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MouseTest.java" afterPath="$PROJECT_DIR$/src/test/java/MouseTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MouseTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MouseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MouseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
@@ -68,14 +67,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -410,8 +409,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConnectionType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Mouse.java" />
         <option value="$PROJECT_DIR$/src/test/java/MouseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mouse.java" />
       </list>
     </option>
   </component>
@@ -757,8 +756,8 @@
     <history-entry file="All_in_CompositionStartPoint_test_(1) - 2018.03.07 at 11h 13m 20s.xml">
       <configuration name="All in CompositionStartPoint_test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MonitorTest - 2017.11.21 at 11h 18m 11s.xml">
-      <configuration name="MonitorTest" configurationId="JUnit" />
+    <history-entry file="All_in_CompositionStartPoint_test_(1) - 2018.03.07 at 11h 42m 12s.xml">
+      <configuration name="All in CompositionStartPoint_test (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RadioTest - 2017.11.21 at 11h 49m 21s.xml">
       <configuration name="RadioTest" configurationId="JUnit" />
@@ -783,7 +782,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1428,25 +1427,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MouseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
           </folding>
         </state>
       </provider>
