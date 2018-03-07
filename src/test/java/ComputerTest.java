@@ -3,6 +3,8 @@ import device_management.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
@@ -99,6 +101,16 @@ public class ComputerTest {
 
     @Test
     public void hasNoSoundDevices() {
-        assertNull(computer.listSoundDevices());
+        assertEquals(0, computer.listSoundDevices().size());
+    }
+
+    @Test
+    public void canAddSoundDevices() {
+        SoundDevice speaker1 = new SoundDevice(100);
+        assert(speaker1 instanceof SoundDevice);
+        computer.addSoundDevice(speaker1);
+//        ArrayList<SoundDevice> deviceList = computer.listSoundDevices();
+//        assertEquals(1, deviceList.size());
+//        assert(deviceList.get(0) instanceof Speaker);
     }
 }

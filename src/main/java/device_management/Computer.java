@@ -13,7 +13,7 @@ public class Computer {
     private IInput inputDevice;
     private String dataStream;
 
-    private final ArrayList<SoundDevice> soundDevices;
+    private ArrayList<SoundDevice> soundDevices;
 
     public Computer(int ram, int hddSize, IOutput outputDevice, IInput inputDevice) {
         this.ram = ram;
@@ -21,7 +21,7 @@ public class Computer {
         this.outputDevice = outputDevice;
         this.inputDevice = inputDevice;
         this.dataStream = null;
-        this.soundDevices = null;
+        this.soundDevices = new ArrayList<>();
     }
 
     public int getRam() {
@@ -63,5 +63,9 @@ public class Computer {
 
     public ArrayList<SoundDevice> listSoundDevices() {
         return soundDevices;
+    }
+
+    public void addSoundDevice(SoundDevice device) {
+        soundDevices.add(device);
     }
 }
