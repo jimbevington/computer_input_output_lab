@@ -1,8 +1,8 @@
 package device_management;
 
-import behaviours.IInputDevice;
+import behaviours.IInput;
 
-public class Mouse implements IInputDevice {
+public class Mouse implements IInput {
 
 
     private ConnectionType connectType;

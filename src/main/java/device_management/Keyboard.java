@@ -1,8 +1,8 @@
 package device_management;
 
-import behaviours.IInputDevice;
+import behaviours.IInput;
 
-public class Keyboard implements IInputDevice {
+public class Keyboard implements IInput {
 
     private ConnectionType connectionType;
 

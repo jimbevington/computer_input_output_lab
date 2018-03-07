@@ -1,6 +1,6 @@
 package behaviours;
 
-public interface IInputDevice {
+public interface IInput{
 
     String inputData(String data);
 }
