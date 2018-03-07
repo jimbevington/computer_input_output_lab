@@ -1,3 +1,5 @@
+import device_management.ConnectionType;
+import device_management.Mouse;
 import org.junit.Before;
 import org.junit.Test;
 
