@@ -112,4 +112,9 @@ public class ComputerTest {
         assertEquals(1, deviceList.size());
         assert(deviceList.get(0) instanceof Speaker);
     }
+
+    @Test
+    public void hasNullOutputDeviceOnSetup() {
+        assertNull(computer.getOutputSoundDevice());
+    }
 }
