@@ -9,7 +9,7 @@ public class SpeakerTest {
 
     @Before
     public void before() {
-        speaker = new Speaker(100);
+        speaker = new Speaker("Bose", 100);
     }
 
     @Test
@@ -19,6 +19,6 @@ public class SpeakerTest {
 
     @Test
     public void canTune() {
-        assertEquals("playing: Beep", speaker.outputData("Beep"));
+        assertEquals("Bose is playing: Beep", speaker.outputData("Beep"));
     }
 }

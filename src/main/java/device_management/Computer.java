@@ -64,6 +64,11 @@ public class Computer {
         return outputData(dataStream);
     }
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////   SOUND DEVICES   /////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     public ArrayList<SoundDevice> listSoundDevices() {
         return soundDevices;
     }
@@ -77,12 +82,14 @@ public class Computer {
     }
 
     public void setOutputSoundDevice(int deviceListNumber) {
-//        if there are as many (or more) devices than the specified Device number ...
-//        set the OutputSoundDevice
+//        uses a Device Number, i.e 1 would be the first device in the list.
+//        if there are as many (or more) devices than the specified Device number ... set the OutputSoundDevice
         if (listSoundDevices().size() >= deviceListNumber) {
             int deviceIndex = deviceListNumber - 1;
             SoundDevice selectedDevice = soundDevices.get(deviceIndex);
             this.outputSoundDevice = selectedDevice;
         }
     }
+
+
 }

@@ -9,7 +9,7 @@ public class RadioTest {
 
     @Before
     public void before() {
-        radio = new Radio(70);
+        radio = new Radio("Samsung", 70);
     }
 
     @Test
@@ -19,6 +19,6 @@ public class RadioTest {
 
     @Test
     public void canTune() {
-        assertEquals("playing: Planet Rock", radio.tune("Planet Rock"));
+        assertEquals("Samsung is playing: Planet Rock", radio.tune("Planet Rock"));
     }
 }

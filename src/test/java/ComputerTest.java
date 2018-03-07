@@ -51,9 +51,9 @@ public class ComputerTest {
 
     @Test
     public void canOutputDataViaSpeaker() {
-        Speaker speaker = new Speaker(100);
+        Speaker speaker = new Speaker("Bowers & Wilkins", 100);
         computer = new Computer(14, 20, speaker, keyboard);
-        assertEquals("playing: Beep!", computer.outputData("Beep!"));
+        assertEquals("Bowers & Wilkins is playing: Beep!", computer.outputData("Beep!"));
     }
 
     @Test
@@ -106,7 +106,7 @@ public class ComputerTest {
 
     @Test
     public void canAddSoundDevices() {
-        Speaker speaker1 = new Speaker(100);
+        Speaker speaker1 = new Speaker("D&B", 100);
         computer.addSoundDevice(speaker1);
         ArrayList<SoundDevice> deviceList = computer.listSoundDevices();
         assertEquals(1, deviceList.size());
@@ -120,7 +120,7 @@ public class ComputerTest {
 
     @Test
     public void canSetOutputSoundDevice() {
-        Speaker speaker1 = new Speaker(100);
+        Speaker speaker1 = new Speaker("Bose", 100);
         computer.addSoundDevice(speaker1);
         computer.setOutputSoundDevice(1);
         assertEquals(speaker1, computer.getOutputSoundDevice());
@@ -134,7 +134,7 @@ public class ComputerTest {
 
     @Test
     public void cantSetOutputSoundDeviceIfNotEnough() {
-        Speaker speaker1 = new Speaker(100);
+        Speaker speaker1 = new Speaker("Bose", 100);
         computer.addSoundDevice(speaker1);
 //        set an initial Sound Device
         computer.setOutputSoundDevice(1);
@@ -142,4 +142,22 @@ public class ComputerTest {
         computer.setOutputSoundDevice(2);
         assertEquals(speaker1, computer.getOutputSoundDevice());
     }
+
+    @Test
+    public void canResetOutputSoundDevice() {
+        Speaker speaker1 = new Speaker("Bose", 100);
+        Speaker speaker2 = new Speaker("D&B", 150);
+        computer.addSoundDevice(speaker1);
+        computer.addSoundDevice(speaker2);
+        computer.setOutputSoundDevice(1);
+        computer.setOutputSoundDevice(2);
+        assertEquals(speaker2, computer.getOutputSoundDevice());
+    }
+
+//    @Test
+//    public void canPlaySound() {
+//        Speaker speaker1 = new Speaker(100);
+//        computer.addSoundDevice(speaker1);
+//        computer.
+//    }
 }
