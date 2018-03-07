@@ -75,4 +75,10 @@ public class Computer {
     public SoundDevice getOutputSoundDevice() {
         return outputSoundDevice;
     }
+
+    public void setOutputSoundDevice(int deviceListNumber) {
+        int deviceIndex = deviceListNumber - 1;
+        SoundDevice selectedDevice = soundDevices.get(deviceIndex);
+        this.outputSoundDevice = selectedDevice;
+    }
 }

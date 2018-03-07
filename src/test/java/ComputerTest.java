@@ -117,4 +117,12 @@ public class ComputerTest {
     public void hasNullOutputDeviceOnSetup() {
         assertNull(computer.getOutputSoundDevice());
     }
+
+    @Test
+    public void canSetOutputSoundDevice() {
+        Speaker speaker1 = new Speaker(100);
+        computer.addSoundDevice(speaker1);
+        computer.setOutputSoundDevice(1);
+        assertEquals(speaker1, computer.getOutputSoundDevice());
+    }
 }
