@@ -3,6 +3,8 @@ import device_management.Keyboard;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class KeyboardTest {
 
 //    needs a Connection type
@@ -18,5 +20,10 @@ public class KeyboardTest {
     @Test
     public void canPushButton() {
         assertEquals("k", keyboard.press("k"));
+    }
+
+    @Test
+    public void canSendData() {
+        assertEquals("jim", keyboard.sendDatqa("jim"));
     }
 }
