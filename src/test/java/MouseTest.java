@@ -17,6 +17,6 @@ public class MouseTest {
 
     @Test
     public void canClick() {
-        assertEquals("Click", mouse.click());
+        assertEquals("Click!", mouse.click());
     }
 }

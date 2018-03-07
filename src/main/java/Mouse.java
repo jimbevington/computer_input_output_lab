@@ -8,4 +8,8 @@ public class Mouse {
         this.connectType = connectType;
         this.buttons = buttons;
     }
+
+    public String click() {
+        return "Click!";
+    }
 }
