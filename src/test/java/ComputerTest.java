@@ -125,4 +125,21 @@ public class ComputerTest {
         computer.setOutputSoundDevice(1);
         assertEquals(speaker1, computer.getOutputSoundDevice());
     }
+
+    @Test
+    public void cantSetOutputSoundDeviceIfNotPresent() {
+        computer.setOutputSoundDevice(1);
+        assertNull(computer.getOutputSoundDevice());
+    }
+
+    @Test
+    public void cantSetOutputSoundDeviceIfNotEnough() {
+        Speaker speaker1 = new Speaker(100);
+        computer.addSoundDevice(speaker1);
+//        set an initial Sound Device
+        computer.setOutputSoundDevice(1);
+//        try set another Sound Device that isn't there
+        computer.setOutputSoundDevice(2);
+        assertEquals(speaker1, computer.getOutputSoundDevice());
+    }
 }

@@ -77,8 +77,12 @@ public class Computer {
     }
 
     public void setOutputSoundDevice(int deviceListNumber) {
-        int deviceIndex = deviceListNumber - 1;
-        SoundDevice selectedDevice = soundDevices.get(deviceIndex);
-        this.outputSoundDevice = selectedDevice;
+//        if there are as many (or more) devices than the specified Device number ...
+//        set the OutputSoundDevice
+        if (listSoundDevices().size() >= deviceListNumber) {
+            int deviceIndex = deviceListNumber - 1;
+            SoundDevice selectedDevice = soundDevices.get(deviceIndex);
+            this.outputSoundDevice = selectedDevice;
+        }
     }
 }
