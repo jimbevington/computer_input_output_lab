@@ -61,7 +61,21 @@ public class ComputerTest {
     }
 
     @Test
-    public void canInputData() {
+    public void canInputDataFromKeyboard() {
         assertEquals("k", computer.inputData("k"));
+    }
+
+    @Test
+    public void canInputDataFromMouse() {
+        Mouse mouse = new Mouse(ConnectionType.BLUETOOTH, 3);
+        computer = new Computer(56, 345, monitor, mouse);
+        assertEquals("Click!", computer.inputData("anything"));
+    }
+
+    @Test
+    public void canSetInputDevice() {
+        Mouse mouse = new Mouse(ConnectionType.BLUETOOTH, 3);
+        computer.setInputDevice(mouse);
+        assertEquals("Click!", computer.inputData("anything"));
     }
 }

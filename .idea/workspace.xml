@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f93ab23-0d1b-4a27-a444-ca31c16679c0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/classes/behaviours/IInputDevice.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IInputDevice.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/device_management/Computer.class" afterPath="$PROJECT_DIR$/out/production/classes/device_management/Computer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/device_management/IInputDevice.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/device_management/Keyboard.class" afterPath="$PROJECT_DIR$/out/production/classes/device_management/Keyboard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/device_management/Mouse.class" afterPath="$PROJECT_DIR$/out/production/classes/device_management/Mouse.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ComputerTest.class" afterPath="$PROJECT_DIR$/out/test/classes/ComputerTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/KeyboardTest.class" afterPath="$PROJECT_DIR$/out/test/classes/KeyboardTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/MouseTest.class" afterPath="$PROJECT_DIR$/out/test/classes/MouseTest.class" />
       <change beforePath="$PROJECT_DIR$/src/main/java/device_management/Computer.java" afterPath="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/device_management/IInputDevice.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" afterPath="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/device_management/Mouse.java" afterPath="$PROJECT_DIR$/src/main/java/device_management/Mouse.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ComputerTest.java" afterPath="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" afterPath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MouseTest.java" afterPath="$PROJECT_DIR$/src/test/java/MouseTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="358">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#624#625#0" expanded="true" />
@@ -55,6 +40,8 @@
                 <element signature="e#871#872#0" expanded="true" />
                 <element signature="e#915#916#0" expanded="true" />
                 <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,15 +57,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="58" column="42" lean-forward="false" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+            <state relative-caret-position="443">
+              <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1780#1781#0" expanded="true" />
-                <element signature="e#1838#1839#0" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -500,12 +487,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Mouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/ConnectionType.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/IInputDevice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/behaviours/IInputDevice.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Mouse.java" />
         <option value="$PROJECT_DIR$/src/test/java/MouseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/KeyboardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
       </list>
     </option>
@@ -835,12 +822,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_CompositionStartPoint_test_(1) - 2018.03.07 at 11h 06m 37s.xml">
-      <configuration name="All in CompositionStartPoint_test (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CompositionStartPoint_test_(1) - 2018.03.07 at 11h 08m 11s.xml">
-      <configuration name="All in CompositionStartPoint_test (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_CompositionStartPoint_test_(1) - 2018.03.07 at 11h 08m 30s.xml">
       <configuration name="All in CompositionStartPoint_test (1)" configurationId="JUnit" />
     </history-entry>
@@ -865,9 +846,16 @@
     <history-entry file="All_in_CompositionStartPoint_test_(1) - 2018.03.07 at 12h 06m 23s.xml">
       <configuration name="All in CompositionStartPoint_test (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test_(1) - 2018.03.07 at 12h 07m 50s.xml">
+      <configuration name="All in CompositionStartPoint_test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test_(1) - 2018.03.07 at 12h 10m 25s.xml">
+      <configuration name="All in CompositionStartPoint_test (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -877,10 +865,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25894135" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -1027,6 +1015,8 @@
             <element signature="e#871#872#0" expanded="true" />
             <element signature="e#915#916#0" expanded="true" />
             <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1150,6 +1140,8 @@
             <element signature="e#871#872#0" expanded="true" />
             <element signature="e#915#916#0" expanded="true" />
             <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1528,18 +1520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="58" column="42" lean-forward="false" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IInputDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1550,8 +1530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="358">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#624#625#0" expanded="true" />
@@ -1562,6 +1542,20 @@
             <element signature="e#871#872#0" expanded="true" />
             <element signature="e#915#916#0" expanded="true" />
             <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
           </folding>
         </state>
       </provider>
