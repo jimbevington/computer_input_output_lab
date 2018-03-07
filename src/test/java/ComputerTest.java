@@ -154,10 +154,11 @@ public class ComputerTest {
         assertEquals(speaker2, computer.getOutputSoundDevice());
     }
 
-//    @Test
-//    public void canPlaySound() {
-//        Speaker speaker1 = new Speaker(100);
-//        computer.addSoundDevice(speaker1);
-//        computer.
-//    }
+    @Test
+    public void canPlaySound() {
+        Speaker speaker1 = new Speaker("Bose", 100);
+        computer.addSoundDevice(speaker1);
+        computer.setOutputSoundDevice(1);
+        assertEquals("Bose is playing: Hee-Haw", computer.playSound("Hee-Haw"));
+    }
 }

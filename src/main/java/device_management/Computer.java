@@ -92,4 +92,7 @@ public class Computer {
     }
 
 
+    public String playSound(String sound) {
+        return outputSoundDevice.playSound(sound);
+    }
 }
