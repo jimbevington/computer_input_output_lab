@@ -27,4 +27,9 @@ public class MouseTest {
         mouse.move(45.67);
         assertEquals(45.67, mouse.getPosition(), 0.01);
     }
+
+    @Test
+    public void canSendData() {
+        assertEquals("Click!", mouse.sendData(mouse.click()));
+    }
 }

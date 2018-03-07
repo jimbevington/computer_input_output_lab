@@ -1,6 +1,6 @@
 package device_management;
 
-public class Mouse {
+public class Mouse implements IInputDevice{
 
 
     private ConnectionType connectType;
@@ -26,5 +26,10 @@ public class Mouse {
 
     public void move(double position) {
         this.position = position;
+    }
+
+    @Override
+    public String sendData(String data) {
+        return data;
     }
 }
