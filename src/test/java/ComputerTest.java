@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 public class ComputerTest {
     Computer computer;
@@ -77,5 +78,10 @@ public class ComputerTest {
         Mouse mouse = new Mouse(ConnectionType.BLUETOOTH, 3);
         computer.setInputDevice(mouse);
         assertEquals("Click!", computer.inputData("anything"));
+    }
+
+    @Test
+    public void dataStreamStartsAtNull() {
+        assertNull(computer.getDataStream());
     }
 }
