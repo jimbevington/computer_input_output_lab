@@ -20,9 +20,9 @@ public class MouseTest {
         assertEquals("Click!", mouse.click());
     }
 
-//    @Test
-//    public void canMoveMouse() {
-//        mouse.move(45.67);
-//        assertEquals(45.67, mouse.getPosition());
-//    }
+    @Test
+    public void canMoveMouse() {
+        mouse.move(45.67);
+        assertEquals(45.67, mouse.getPosition(), 0.01);
+    }
 }

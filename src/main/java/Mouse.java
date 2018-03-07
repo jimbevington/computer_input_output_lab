@@ -18,4 +18,11 @@ public class Mouse {
     }
 
 
+    public double getPosition() {
+        return position;
+    }
+
+    public void move(double position) {
+        this.position = position;
+    }
 }

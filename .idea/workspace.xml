@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f93ab23-0d1b-4a27-a444-ca31c16679c0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Mouse.java" afterPath="$PROJECT_DIR$/src/main/java/Mouse.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MouseTest.java" afterPath="$PROJECT_DIR$/src/test/java/MouseTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MouseTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MouseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MouseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="424">
+              <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
@@ -67,14 +68,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="357">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="e#380#381#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -409,8 +414,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConnectionType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MouseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MouseTest.java" />
       </list>
     </option>
   </component>
@@ -1427,25 +1432,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MouseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mouse.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MouseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="424">
+          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
           </folding>
         </state>
       </provider>
