@@ -90,4 +90,10 @@ public class ComputerTest {
         computer.inputData("twelve");
         assertEquals("twelve", computer.getDataStream());
     }
+
+    @Test
+    public void canOutputDataStream() {
+        computer.inputData("Sandwiches");
+        assertEquals("Sandwiches is now on screen", computer.outputDataStream());
+    }
 }

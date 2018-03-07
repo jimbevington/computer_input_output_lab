@@ -53,4 +53,7 @@ public class Computer {
     }
 
 
+    public String outputDataStream() {
+        return outputData(dataStream);
+    }
 }
