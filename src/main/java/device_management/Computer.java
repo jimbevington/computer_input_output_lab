@@ -48,8 +48,8 @@ public class Computer {
     }
 
     public String inputData(String data) {
-        this.dataStream = data
-;        return this.inputDevice.inputData(data);
+        this.dataStream = data;
+        return this.inputDevice.inputData(data);
     }
 
     public void setInputDevice(IInput inputDevice) {
@@ -90,7 +90,6 @@ public class Computer {
             this.outputSoundDevice = selectedDevice;
         }
     }
-
 
     public String playSound(String sound) {
         return outputSoundDevice.playSound(sound);
