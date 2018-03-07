@@ -3,6 +3,8 @@ package device_management;
 import behaviours.IInput;
 import behaviours.IOutput;
 
+import java.util.ArrayList;
+
 public class Computer {
     private int ram;
     private int hddSize;
@@ -11,12 +13,15 @@ public class Computer {
     private IInput inputDevice;
     private String dataStream;
 
+    private final ArrayList<SoundDevice> soundDevices;
+
     public Computer(int ram, int hddSize, IOutput outputDevice, IInput inputDevice) {
         this.ram = ram;
         this.hddSize = hddSize;
         this.outputDevice = outputDevice;
         this.inputDevice = inputDevice;
         this.dataStream = null;
+        this.soundDevices = null;
     }
 
     public int getRam() {
@@ -52,8 +57,11 @@ public class Computer {
         return dataStream;
     }
 
-
     public String outputDataStream() {
         return outputData(dataStream);
+    }
+
+    public ArrayList<SoundDevice> listSoundDevices() {
+        return soundDevices;
     }
 }

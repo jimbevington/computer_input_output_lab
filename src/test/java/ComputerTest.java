@@ -96,4 +96,9 @@ public class ComputerTest {
         computer.inputData("Sandwiches");
         assertEquals("Sandwiches is now on screen", computer.outputDataStream());
     }
+
+    @Test
+    public void hasNoSoundDevices() {
+        assertNull(computer.listSoundDevices());
+    }
 }
