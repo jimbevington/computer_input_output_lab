@@ -1,6 +1,8 @@
 package device_management;
 
-public class Mouse implements IInputDevice{
+import behaviours.IInputDevice;
+
+public class Mouse implements IInputDevice {
 
 
     private ConnectionType connectType;
@@ -29,7 +31,8 @@ public class Mouse implements IInputDevice{
     }
 
     @Override
-    public String sendData(String data) {
-        return data;
+    public String inputData(String data) {
+//        returns "Click!" whatever happens
+        return "Click!";
     }
 }

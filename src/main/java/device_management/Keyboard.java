@@ -1,6 +1,8 @@
 package device_management;
 
-public class Keyboard implements IInputDevice{
+import behaviours.IInputDevice;
+
+public class Keyboard implements IInputDevice {
 
     private ConnectionType connectionType;
 
@@ -13,7 +15,7 @@ public class Keyboard implements IInputDevice{
     }
 
     @Override
-    public String sendData(String data) {
+    public String inputData(String data) {
         return data;
     }
 }
