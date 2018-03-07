@@ -9,7 +9,7 @@ public class Computer {
 
     private IOutput outputDevice;
     private IInputDevice inputDevice;
-    private final String dataStream;
+    private String dataStream;
 
     public Computer(int ram, int hddSize, IOutput outputDevice, IInputDevice inputDevice) {
         this.ram = ram;
@@ -40,7 +40,8 @@ public class Computer {
     }
 
     public String inputData(String data) {
-        return this.inputDevice.inputData(data);
+        this.dataStream = data
+;        return this.inputDevice.inputData(data);
     }
 
     public void setInputDevice(IInputDevice inputDevice) {
@@ -50,4 +51,6 @@ public class Computer {
     public String getDataStream() {
         return dataStream;
     }
+
+
 }

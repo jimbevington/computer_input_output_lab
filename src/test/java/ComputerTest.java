@@ -84,4 +84,10 @@ public class ComputerTest {
     public void dataStreamStartsAtNull() {
         assertNull(computer.getDataStream());
     }
+
+    @Test
+    public void getInputUpdatesDataStream() {
+        computer.inputData("twelve");
+        assertEquals("twelve", computer.getDataStream());
+    }
 }
